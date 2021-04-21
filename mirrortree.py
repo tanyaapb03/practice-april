@@ -1,7 +1,7 @@
 # check it the subtree is the mirror of each other
 
 class Treenode:
-    def __init__(self):
+    def __init__(self,val,left,right):
         self.val=val 
         self.left=left
         self.right=right
